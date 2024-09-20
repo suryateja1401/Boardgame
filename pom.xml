@@ -130,10 +130,21 @@
 	
 <repositories>
     <repository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+
+    <repository>
+        <id>spring-releases</id>
+        <url>https://repo.spring.io/release</url>
+    </repository>
+
+    <repository>
         <id>maven-releases</id>
-        <url>http://13.201.0.185:8081/repository/maven-releases/</url>
+        <url>http://13.201.0.185:8081/repository/maven-releases/</url> <!-- Check if HTTPS is available -->
     </repository>
 </repositories>
+
 
 
 </project>
